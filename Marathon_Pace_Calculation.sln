@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathon_Pace_Calculation", "Marathon_Pace_Calculation\Marathon_Pace_Calculation.csproj", "{7836D8B5-E8EF-4C22-B4D4-AF95276945FD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{8F2810DA-52D9-4B02-BC92-F8E317E0DA42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7836D8B5-E8EF-4C22-B4D4-AF95276945FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7836D8B5-E8EF-4C22-B4D4-AF95276945FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7836D8B5-E8EF-4C22-B4D4-AF95276945FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7836D8B5-E8EF-4C22-B4D4-AF95276945FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2810DA-52D9-4B02-BC92-F8E317E0DA42}.Debug|Any CPU.ActiveCfg = Debug
+		{8F2810DA-52D9-4B02-BC92-F8E317E0DA42}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97FAB9E3-DB24-47D9-B03E-976FEE9EE514}
+	EndGlobalSection
+EndGlobal

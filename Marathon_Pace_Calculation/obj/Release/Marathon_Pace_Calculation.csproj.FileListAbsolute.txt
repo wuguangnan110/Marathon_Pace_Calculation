@@ -1,0 +1,14 @@
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\bin\Release\Marathon_Pace_Calculation.exe.config
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\bin\Release\Marathon_Pace_Calculation.exe
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\bin\Release\Marathon_Pace_Calculation.pdb
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\MainWindow.g.cs
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\App.g.cs
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation_MarkupCompile.cache
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation_MarkupCompile.lref
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\MainWindow.baml
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.g.resources
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.Properties.Resources.resources
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.csproj.GenerateResource.cache
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.csproj.CoreCompileInputs.cache
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.exe
+H:\code\Marathon_Pace_Calculation\Marathon_Pace_Calculation\obj\Release\Marathon_Pace_Calculation.pdb
