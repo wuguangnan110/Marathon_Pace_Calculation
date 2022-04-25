@@ -281,9 +281,18 @@ namespace Marathon_Pace_Calculation
 
         private void Button_Click_help(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("MHR(Maximum Heart Rate：最大心率(心跳次数/每分钟) 懒人公式: 220-年龄\n"+
-                "RHR：静止心跳(Resting Heart Rate)\n" +
-                "HRR=（MHR最大心率-RHR静息心率）×强度百分比+RHR静息心率\n" +
+            MessageBox.Show("MHR：最大心率(心跳次数/每分钟)(Maximum Heart Rate),每分钟最大心跳次数，全力运动至疲惫时可达到。懒人公式: 220-年龄\n" +
+                "RHR：静止心跳,在清醒、不活动的安静状态下，每分钟心跳的次数。(Resting Heart Rate)\n" +
+                "HRR：储备心率法（Heart Rate Reserve，简称HRR）=（MHR最大心率-RHR静息心率）×强度百分比+RHR静息心率\n" +
+                "储备心率法（Heart Rate Reserve，简称HRR）由Karvonen等人于1957年首先提出，是目前马拉松训练比较推崇的科学训练方法。\n" +
+                "按照HRR方法确定目标强度心率，可把运动强度划分为E/M/T/I/R共计5种强度（%HRR）\n" +
+                "E   59 % ~74 %   增强有氧能力培养基础体能\n" +
+                "M   74 % ~84 %   模拟比赛强度习惯长距离比赛配速\n" +
+                "T   84 % ~88 %   刺激乳酸阈值强化排酸能力\n" +
+                "A   88 % ~95 %   提升无氧能力训练耐乳酸能力\n" +
+                "I   95 % ~100 %  刺激最大摄氧量加强有氧容量\n" +
+                "R   不考虑心率   加强运动经济性、无氧能力\n" +
+                "可以看到，E和M都是有氧训练。按照这5种心率区间进行训练的方法，叫做储备心率区间法。\n\n" +
                 "参考：\n" +
                 "https://www.sohu.com/a/210408415_100048225 \n" +
                 "https://zhuanlan.zhihu.com/p/51501684"
