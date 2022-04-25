@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Marathon_Pace_Calculation"
         mc:Ignorable="d"
-        Title="Pace Calculation V1.0    Author : wugangnan   E-Mail : 569542647@qq.com"  Height="587.677" Width="632.479">
+        Title="Pace Calculation V1.0    Author : wugangnan   E-Mail : 569542647@qq.com"  Height="587.677" Width="589.479">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="449*"/>
@@ -19,12 +19,13 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <DataGrid Name="dataGrid1"  AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="10,48,27,10" HorizontalAlignment="Left">
+        <DataGrid Name="dataGrid1" AutoGenerateColumns="False" Grid.ColumnSpan="2" Margin="10,96,0,10" HorizontalAlignment="Left">
 
             <DataGrid.Columns>
                 <DataGridTextColumn Header="公里" Width="130" Binding="{Binding dist}"/>
                 <DataGridTextColumn Header="配速" Width="130" Binding="{Binding pace}"/>
-                <DataGridTextColumn Header="累计用时" Width="280" Binding="{Binding time}"/>
+                <DataGridTextColumn Header="累计用时" Width="130" Binding="{Binding time}"/>
+                <DataGridTextColumn Header="" Width="130" Binding="{Binding max_Hrate}"/>
             </DataGrid.Columns>
 
             <DataGrid.ColumnHeaderStyle>
@@ -51,5 +52,11 @@
         <Label Content="分" HorizontalAlignment="Left" Margin="88,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.297,0.495" Height="25" Width="22"/>
         <Label Content="秒" HorizontalAlignment="Left" Margin="160,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.297,0.495" Height="25" Width="22"/>
         <Label Content="配速：" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.297,0.495" Height="25" Width="38"/>
+        <TextBox x:Name ="MHR" HorizontalAlignment="Left" Height="23" Margin="48,48,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name ="RHR" HorizontalAlignment="Left" Height="23" Margin="123,48,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="44"/>
+        <Label Content="RHR：" HorizontalAlignment="Left" Margin="86,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.297,0.495" Height="25" Width="42"/>
+        <Label Content="MHR：" HorizontalAlignment="Left" Margin="6,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.297,0.495" Height="25" Width="48"/>
+        <Button Content="计算" HorizontalAlignment="Left" Margin="187,48,0,0" VerticalAlignment="Top" Width="52" Height="23" Click="Button_Click_Hrate"/>
+        <Button Content="帮助" HorizontalAlignment="Left" Margin="151,18,0,0" VerticalAlignment="Top" Width="52" Height="23" Click="Button_Click_help" Grid.Column="1"/>
     </Grid>
 </Window>
